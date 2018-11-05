@@ -1,5 +1,106 @@
-.cats {max-width: 500px;}
+content-box {
+	height: 5em;
+	border: 1em;
+}
 
-footer {background-color: grey;}
+#border-box {
+	width: 1200px;
+	height: 5em
+}
 
-h1 {font-size: 3rem;}
+h1 {
+	font-size: 5rem;
+	line-height: 1rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 2.5rem;
+	line-height: 3.5rem;
+	font-weight: 400;
+	font-style: italic;
+}
+
+p{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.tagline{
+	max-width: 45%;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.kitties {
+	padding: 120px 0px;
+	font-family: sans-serif;
+	color:white;
+}
+
+.main-navigation{
+	background-color: #ebebeb;
+	overflow: hidden;
+}
+
+.main-navigation a {
+	list-style-type: none;
+	float:left;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.main-content{
+  padding: 80px 0;
+
+}
+
+.quote{
+  padding: 16px 0px;
+  color:#339ab5;
+}
+
+.quote p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  }
+
+.content{
+  display:block;
+  max-width: 800px;
+}
+
+aside {
+  max-width: 300px;
+  float: right;
+  display:block;}
+
+body {
+	font-family: sans-serif;
+	margin: auto;
+}
+
+a, a:visited, a:hover, a:active {
+	color: inherit;
+}
+
+header{
+	background-color: #339ab5;
+}
+
+nav {
+	background-color: #ebebeb;
+	flex-direction: row;
+	text-decoration: none;
+}
+
+footer {
+	background-color: #393939;
+	color: white;
+}
